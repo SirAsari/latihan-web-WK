@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+   
+body {
+    background: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+    font-size: 30px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 15px 24px;
+}
+
+.tulisan-gambar {
+margin-top: 65px;
+background-image: url(img/gedung.jpg);
+background-repeat: cover;
+background-size: auto;
+height: 400px;
+text-align: center;
+padding-top: 120px;
+}
+
+.header {
+    padding-top: 50px;
+    padding-left: 20px;
+    font-size: 38px;
+}
+
+.gambargedung img {
+    width: 600x;
+    height: 400px;
+    padding: 13px;
+}
+
+.gambarbelajar {
+    padding: 13px;
+}
+
+.sejarah {
+    font-size: 20px;
+    margin-right: 300px;
+    text-decoration: solid;
+}
+
+.matrikulasi {
+    font-size: 20px;
+    padding: 20px;
+}
+
+
+
+
+.footer-main {
+    background-color: #246980;
+    padding: 10px 30px;
+    color: white;
+  }
+
+  .footer-grid {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 10px;
+    margin: 0 auto;
+    max-width: 100%;
+    justify-items: center;
+  }
+
+  .footer-grid {
+        padding-left: 20px;
+    }
+
+  .footer-grid p {
+    margin : 10px 0;
+  }
